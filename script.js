@@ -10,6 +10,14 @@ input.forEach((element, index) => {
             if(values == 'hello') {
                 alert('oooo to`g`ri so`z')
             }
+            count = ''
+            newsCound = ''
+            values = ''
         }
     })
 });
+
+let btn = document.querySelector('.btn');
+btn.addEventListener('click', () => {
+    console.log('hello')
+})
