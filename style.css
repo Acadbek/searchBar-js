@@ -13,4 +13,8 @@ input {
 .hiddenModal {
   display: none !important;
 }
+
+.close {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */

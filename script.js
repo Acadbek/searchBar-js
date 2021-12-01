@@ -13,16 +13,19 @@ input.forEach((element, index) => {
         }
     })
 });
-
-let btn = document.querySelector('.btn');
-btn.addEventListener('click', () => {
-    console.log('hello')
-})
-
+let open = document.querySelector('.open')
 let modal = document.querySelector('.modal')
 let close = document.querySelector('.close')
-
 close.addEventListener('click', () => {
-    modal.classList.add('hiddenModal')
-    console.log('hello')
+    modal.style.display = 'none'
 })
+
+open.addEventListener('click', () => {
+    modal.style.opacity = 1,
+    modal.style.transition = 'all 1s'
+})
+
+
+let modalInput = document.querySelector('#input')
+console.log(modalInput.value)
+let modalInputValue = document.createElement('div')
