@@ -7,3 +7,11 @@ input{
   border: solid 1px gray;
   outline: none !important;
 }
+
+.hiddenModal{
+  // transition: all 1s;
+  display: none !important;
+  // opacity: 0;
+  // margin-left: 200px;
+  // transition: all 1s;
+}

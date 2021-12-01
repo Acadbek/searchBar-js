@@ -9,4 +9,8 @@ input {
   border: solid 1px gray;
   outline: none !important;
 }
+
+.hiddenModal {
+  display: none !important;
+}
 /*# sourceMappingURL=style.css.map */

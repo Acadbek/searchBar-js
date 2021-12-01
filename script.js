@@ -7,17 +7,22 @@ input.forEach((element, index) => {
         if (index == 0) {
             newsCound.innerHTML = values;
             count.appendChild(newsCound)
-            if(values == 'hello') {
-                alert('oooo to`g`ri so`z')
+            if(values.nodeValue.length == 0) {
+                alert('skjkkjddskjskj')
             }
-            count = ''
-            newsCound = ''
-            values = ''
         }
     })
 });
 
 let btn = document.querySelector('.btn');
 btn.addEventListener('click', () => {
+    console.log('hello')
+})
+
+let modal = document.querySelector('.modal')
+let close = document.querySelector('.close')
+
+close.addEventListener('click', () => {
+    modal.classList.add('hiddenModal')
     console.log('hello')
 })
