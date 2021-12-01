@@ -7,8 +7,8 @@ input.forEach((element, index) => {
         if (index == 0) {
             newsCound.innerHTML = values;
             count.appendChild(newsCound)
-            if(values == 'Salom') {
-                alert('oooo Salom boldi')
+            if(values == 'hello') {
+                alert('oooo to`g`ri so`z')
             }
         }
     })
