@@ -1,20 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.color{
+    background-color: red
+}
+table{
+    display: flex;
+    justify-content: space-between;
 }
 
-input {
-  border: solid 1px gray;
-  outline: none !important;
+td{
+    display: flex;
+    padding: 10px;
+}
+tr{
+    border: solid 1px rgb(77, 75, 75);
+    display: flex;
+    padding: 15px;
 }
 
-.hiddenModal {
-  display: none !important;
+.results{
+    display: flex;
+    justify-content: space-between;
 }
-
-.close {
-  display: none;
+input{
+    background-color: rgb(110, 105, 105);
+    padding: 12px;
+    outline: none !important;
 }
-/*# sourceMappingURL=style.css.map */
